@@ -64,7 +64,7 @@ tbody th {
   background-color: #fffbcf;
 }
 
-.version {
+.version{
   text-align: center;
   font-size: 130%;
 }
@@ -76,7 +76,7 @@ code {
   background-color: #eee;
 }
 
-.version.no code {
+.version.no code{
   border-color: rgba(255, 0, 0, 0.15);
   background-color: rgba(255, 0, 0, 0.3);
 }
