@@ -1,4 +1,5 @@
-* {
+/* Ejercicio 1 */
+body {
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +16,7 @@ p.segundo {
   line-height: 1.5;
 }
 
-.acronimo {
+abbr {
   font-family: monospace;
   font-size: .85rem;
 }
@@ -31,9 +32,11 @@ blockquote{
   font-style: italic;
 }
 
+/* Ejercicio 2 */
+
 table {
   margin-top: 2rem;
-  width: 67%;
+  width: 66.6667%;
   border-collapse: collapse;
 }
 
@@ -43,9 +46,13 @@ caption {
   text-align: left;
 }
 
-th, tr, td {
+th, tr, td{
   border: 1px solid #ddd;
   padding: 0.5rem;
+}
+
+tfoot tr, tfoot td{
+  border: 0px;
 }
 
 thead {
@@ -60,17 +67,16 @@ tbody th {
 .version {
   text-align: center;
   font-size: 130%;
-  background-color: white;
 }
 
-tbody td {
+code {
   border: 1px solid rgba(180, 180, 180, .3);
   border-radius: 4px;
   padding: .25rem;
   background-color: #eee;
 }
 
-.version.no {
+.version.no code {
   border-color: rgba(255, 0, 0, 0.15);
   background-color: rgba(255, 0, 0, 0.3);
 }

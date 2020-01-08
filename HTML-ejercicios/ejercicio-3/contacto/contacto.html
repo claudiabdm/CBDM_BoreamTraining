@@ -18,18 +18,18 @@
     </header>
     <h2>Contacta con nosotros</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit:</p>
-    <p><i><b>Sitio Web</b><br>
+    <p><em><strong>Sitio Web</strong><br>
         Calle Atocha 25<br>
         28012 Madrid<br>
-        <a href="mailto:micuenta@dominio.com?">micuenta@dominio.com</a></i>
+        <a href="mailto:micuenta@dominio.com?">micuenta@dominio.com</a></em>
     </p>
-    <form class="contacto" action="formulario.php" method="POST">
+    <form class="contacto" id="contacto-form" action="formulario.php" method="POST">
         <p>Temporibus expedita quo ducimus odit cupiditate modi, dolores libero.</p>
-        <div class="labels"><label for="nombre">Nombre </label><input type="text" id="nombre"></div><br>
-        <div class="labels"><label for="apellido">Apellido </label><input type="text" id="apellido"></div><br>
-        <div class="labels"><label for="correo">E-mail  </label><input type="text" id="correo"></div><br>
-        <div class="labels"><label for="telefono">Teléfono </label><input type="text" id="telefono"></div><br>
-        <div class="labels"><label for="comentario">Deja tu comentario </label><br><textarea id="comentario" name="comment"></textarea></div><br>
-        <div class="labels"><input type="checkbox" id="condiciones"><label for="condiciones"> Acepto las condiciones de privacidad</label></div><br>
+        <div class="labels"><label for="nombre">Nombre </label><input type="text" id="nombre"></div>
+        <div class="labels"><label for="apellido">Apellido </label><input type="text" id="apellido"></div>
+        <div class="labels"><label for="correo">E-mail  </label><input type="text" id="correo"></div>
+        <div class="labels"><label for="telefono">Teléfono </label><input type="text" id="telefono"></div>
+        <div class="labels"><label for="comentario">Deja tu comentario </label><br><textarea name="comment" form="contacto-form"></textarea></div>
+        <div class="labels"><input type="checkbox" id="condiciones"><label for="condiciones"> Acepto las condiciones de privacidad</label></div>
         <button type="submit">Enviar</button>
     </form>
